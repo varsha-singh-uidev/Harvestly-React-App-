@@ -1,0 +1,16 @@
+import React from 'react'
+
+const Banner = ({title, bgimage}) => {
+  return (
+    <>
+      <div className='mt-30 h-[40vh] overflow-hidden flex justify-center items-center '>
+        <div className=''><img src={bgimage} className='w-full object-fill relative '/></div>
+        <h2 className='text-[#fff] font-Quicksand text-6xl font-bold absolute z-10'
+         style={{textShadow: "5px 5px 6px rgba(0, 0, 0, 0.7)"}}
+        >{title}</h2>
+      </div>
+    </>
+  )
+}
+
+export default Banner;
