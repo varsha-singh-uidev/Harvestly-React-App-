@@ -1,16 +1,36 @@
-# React + Vite
+🌿 Harvestly Harvestly is a premium e‑commerce web application designed to deliver a clean, elegant, and user‑friendly shopping experience. Built with React, Tailwind CSS, and Swiper.js, it focuses on intuitive UI/UX, smooth navigation, and a feminine, premium brand identity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+------- Features -------
+Products Page → Browse curated product listings with a clean layout.
 
-Currently, two official plugins are available:
+Filtering System → Filter products by categories for a seamless shopping experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Testimonials Section → Integrated with Swiper.js for interactive customer feedback.
 
-## React Compiler
+Sign In / Login Page → Secure authentication for personalized shopping.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Liked Page → Save and view your favorite products.
 
-## Expanding the ESLint configuration
+Cart Page → Add products to cart with subtotal and total calculation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+About Page → Learn more about Harvestly’s vision and brand story.
+
+Contact Page → Reach out via form and company details.
+
+------- UI/UX Focus -------
+Elegant, feminine design with Harvestly’s signature color palette.
+
+Responsive layouts for mobile and desktop.
+
+Smooth transitions and interactive elements for a premium feel.
+
+Clear typography and spacing for readability.
+
+------- Tech Stack -------
+React → Component‑based front‑end framework.
+
+Tailwind CSS → Utility‑first CSS framework for rapid styling.
+
+Swiper.js → Used in testimonials for interactive sliders.
+
+JavaScript (ES6+) → Core logic and interactivity.
