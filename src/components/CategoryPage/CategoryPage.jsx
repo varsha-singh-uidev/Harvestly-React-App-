@@ -2,8 +2,10 @@ import React from "react";
 import ProductList from "../ProductList/ProductList";
 import Cards from "../Cards/Cards";
 import Banner from "../Banner/Banner";
-
+import WithSeller from "../../WithSeller/WithSeller";
 const CategoryPage = ({ title, bgimage, categories=[] }) => {
+
+  const CardsComp = WithSeller(Cards)
 
   let filterItems = categories.includes('All')
   ? ProductList
@@ -11,7 +13,7 @@ const CategoryPage = ({ title, bgimage, categories=[] }) => {
 
     const renderProduct = filterItems.map((product) => {
       return (
-        <Cards
+        <CardsComp
           key={product.id}
           id={product.id}
           title={product.title}

@@ -4,7 +4,7 @@ import ProductList from "../ProductList/ProductList";
 import Cards from "../Cards/Cards";
 import Button from "../Button/Button"
 import {Link} from 'react-router-dom';
-
+import WithSeller from "../../WithSeller/WithSeller";
 const Product = () => {
   
   let Tabs = ["All", "Vegetable", "Fruit", "Non-Veg", "Dairy"];
@@ -12,10 +12,12 @@ const Product = () => {
   function clickHandler(tab){
     setIsActive(tab);
   }
+
+  const CardsComp = WithSeller(Cards)
   let filterProduct = (isActive === "All") ? ProductList : ProductList.filter(product => product.category === isActive)
   const renderCard = filterProduct.slice(0,8).map(product => {
       return(
-        <Cards
+        <CardsComp
           key={product.id}
           id={product.id}
           title={product.title}
