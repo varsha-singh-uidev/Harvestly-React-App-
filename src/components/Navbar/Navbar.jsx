@@ -77,10 +77,10 @@ const Navbar = () => {
               </div>
             </Link>
             <Link to="/likepage">
-              <img src={activeHeart ? "./images/heartFill.png" : "./images/heart.png"} alt="" className="w-5 sm:w-6 md:w-7"/>
+              <img src={activeHeart ? "./images/heartFill.png" : "./images/heart.png"} alt="" className="w-6 md:w-7"/>
             </Link>
             <Link to="/cart">
-              <img src={activeCart ? "./images/cartFill.png" : "./images/cart.png"} alt="cart items" className="w-5 sm:w-6 md:w-7"/>
+              <img src={activeCart ? "./images/cartFill.png" : "./images/cart.png"} alt="cart items" className="w-6 md:w-7"/>
             </Link>
           
 
