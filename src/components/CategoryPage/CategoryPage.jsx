@@ -2,7 +2,7 @@ import React from "react";
 import ProductList from "../ProductList/ProductList";
 import Cards from "../Cards/Cards";
 import Banner from "../Banner/Banner";
-import WithSeller from "../../WithSeller/WithSeller";
+import WithSeller from "../WithSeller/WithSeller";
 const CategoryPage = ({ title, bgimage, categories=[] }) => {
 
   const CardsComp = WithSeller(Cards)

@@ -4,7 +4,7 @@ import ProductList from "../ProductList/ProductList";
 import Cards from "../Cards/Cards";
 import Button from "../Button/Button"
 import {Link} from 'react-router-dom';
-import WithSeller from "../../WithSeller/WithSeller";
+import WithSeller from "../WithSeller/WithSeller";
 const Product = () => {
   
   let Tabs = ["All", "Vegetable", "Fruit", "Non-Veg", "Dairy"];
